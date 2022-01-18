@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
+         version="4.0">
+    <servlet>
+        <servlet-name>ToEditGood</servlet-name>
+        <servlet-class>servlet.ToEditGood</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>ToEditGood</servlet-name>
+        <url-pattern>/ToEditGood</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>DoDeleteGood</servlet-name>
+        <servlet-class>servlet.DoDeleteGood</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>DoDeleteGood</servlet-name>
+        <url-pattern>/DoDeleteGood</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>ExportGood</servlet-name>
+        <servlet-class>servlet.ExportGood</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>ExportGood</servlet-name>
+        <url-pattern>/ExportGood</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>DoSaveEditGood</servlet-name>
+        <servlet-class>servlet.DoSaveEditGood</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>DoSaveEditGood</servlet-name>
+        <url-pattern>/DoSaveEditGood</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>DoAddGood</servlet-name>
+        <servlet-class>servlet.DoAddGood</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>DoAddGood</servlet-name>
+        <url-pattern>/DoAddGood</url-pattern>
+    </servlet-mapping>
+</web-app>
