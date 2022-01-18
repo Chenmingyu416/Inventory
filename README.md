@@ -1,4 +1,5 @@
-# Inventory
+# InventoryManageSystem
+
 This is an inventory tracking web system.
 
 OS: MacOS
